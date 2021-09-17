@@ -12,5 +12,4 @@ let package = Package(name: "SVProgressHUD",
                                         linkerSettings: []),
                                 .testTarget(name: "SVProgressHUDTests",
                                             dependencies: ["SVProgressHUD"],
-                                            path: "Tests")],
-                      swiftLanguageVersions: [.v5])
+                                            path: "Tests")])
